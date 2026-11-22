@@ -1,0 +1,100 @@
+running `fe test` for 3 inputs (jobs=8)
+
+COMPILING        games    /home/hatch/workspace/drive_puzzle/fe-bountiful/contracts/ingots/games
+COMPILING        registry /home/hatch/workspace/drive_puzzle/fe-bountiful/contracts/ingots/registry
+COMPILING        shared   /home/hatch/workspace/drive_puzzle/fe-bountiful/contracts/ingots/shared
+READY [22.515s]  shared   running 17 tests
+PASS  [0.0029s]  shared   test_challenge_closed_helper
+PASS  [0.0017s]  shared   test_challenge_word_repr_roundtrip
+PASS  [0.0002s]  shared   test_encode_decode_moves
+PASS  [0.0002s]  shared   test_encode_all_invalid
+PASS  [0.0001s]  shared   test_is_movable_to
+PASS  [0.0001s]  shared   test_is_movable_to_with_invalid_slots
+PASS  [0.0000s]  shared   test_lock_word_repr_empty
+PASS  [0.0000s]  shared   test_lock_word_repr_full_address
+PASS  [0.0000s]  shared   test_lock_word_repr_roundtrip
+PASS  [0.0001s]  shared   test_pack_unpack_roundtrip
+PASS  [0.0001s]  shared   test_unpack_board_solved
+PASS  [0.0001s]  shared   test_unpack_board_unsolvable
+PASS  [0.0000s]  shared   test_winning_value
+PASS  [0.0038s]  shared   test_challenge_word_repr_large_prize
+PASS  [0.0013s]  shared   test_error_to_int_all_variants
+PASS  [0.0033s]  shared   test_decode_move_all_slots
+PASS  [0.0049s]  shared   test_challenge_word_repr_closed
+READY [122.21s]  registry running 24 tests
+PASS  [0.0009s]  registry test_full_bounty_flow
+PASS  [0.0006s]  registry test_registry_admin_register_and_check
+PASS  [0.0004s]  registry test_registry_claim_unregistered
+PASS  [0.0008s]  registry test_registry_claim_already_claimed
+PASS  [0.0004s]  registry test_registry_claim_without_lock
+PASS  [0.0005s]  registry test_registry_claim_unsolved
+PASS  [0.0003s]  registry test_registry_double_register
+PASS  [0.0004s]  registry test_registry_get_balance
+PASS  [0.0003s]  registry test_registry_lock_already_locked
+PASS  [0.0004s]  registry test_registry_lock_requires_deposit
+PASS  [0.0003s]  registry test_registry_lock_unregistered_challenge
+PASS  [0.0003s]  registry test_registry_non_admin_register
+PASS  [0.0006s]  registry test_registry_multiple_simultaneous_locks
+PASS  [0.0003s]  registry test_registry_non_admin_withdraw
+PASS  [0.0004s]  registry test_registry_remove_challenge_unlocked
+PASS  [0.0003s]  registry test_registry_remove_challenge_while_locked
+PASS  [0.0003s]  registry test_registry_remove_never_registered
+PASS  [0.0003s]  registry test_registry_validate_owns_lock_correct_owner
+PASS  [0.0003s]  registry test_registry_validate_owns_lock_no_lock
+PASS  [0.0003s]  registry test_registry_validate_owns_lock_wrong_owner
+PASS  [0.0003s]  registry test_registry_withdraw
+PASS  [0.0023s]  registry test_registry_non_admin_remove
+PASS  [0.0057s]  registry test_registry_lock
+PASS  [0.0035s]  registry test_registry_withdraw_while_locked
+READY [246.92s]  games    running 49 tests
+PASS  [0.0005s]  games    test_2d_move_and_solve
+PASS  [0.0005s]  games    test_2d_invalid_move
+PASS  [0.0004s]  games    test_2d_multiple_moves
+PASS  [0.0017s]  games    test_2d_unsolved
+PASS  [0.0006s]  games    test_2d_solved
+PASS  [0.0007s]  games    test_2d_move_without_lock
+PASS  [0.0026s]  games    test_2d_move_field_invalid_index
+PASS  [0.0004s]  games    test_bitboard_move_and_solve
+PASS  [0.0004s]  games    test_bitboard_invalid_move
+PASS  [0.0005s]  games    test_bitboard_move_field_invalid_index
+PASS  [0.0003s]  games    test_bitboard_move_without_lock
+PASS  [0.0004s]  games    test_bitboard_multiple_moves
+PASS  [0.0003s]  games    test_bitboard_unsolved
+PASS  [0.0004s]  games    test_bitboard_solved
+PASS  [0.0004s]  games    test_enum_invalid_move
+PASS  [0.0004s]  games    test_enum_move_field_invalid_index
+PASS  [0.0003s]  games    test_enum_move_without_lock
+PASS  [0.0003s]  games    test_enum_solved
+PASS  [0.0003s]  games    test_enum_unsolved
+PASS  [0.0005s]  games    test_enum_multiple_moves
+PASS  [0.0004s]  games    test_game_deploy_and_check_board
+PASS  [0.0004s]  games    test_game_invalid_move
+PASS  [0.0004s]  games    test_game_move_and_solve
+PASS  [0.0005s]  games    test_game_multiple_moves
+PASS  [0.0004s]  games    test_monadic_invalid_move
+PASS  [0.0004s]  games    test_game_unsolved
+PASS  [0.0004s]  games    test_monadic_move_field_invalid_index
+PASS  [0.0004s]  games    test_monadic_move_without_lock
+PASS  [0.0004s]  games    test_monadic_solved
+PASS  [0.0005s]  games    test_monadic_multiple_moves
+PASS  [0.0003s]  games    test_monadic_unsolved
+PASS  [0.0004s]  games    test_nested_invalid_move
+PASS  [0.0003s]  games    test_nested_move_field_invalid_index
+PASS  [0.0003s]  games    test_nested_move_without_lock
+PASS  [0.0005s]  games    test_nested_multiple_moves
+PASS  [0.0033s]  games    test_game_move_without_lock
+PASS  [0.0003s]  games    test_nested_unsolved
+PASS  [0.0004s]  games    test_trait_invalid_move
+PASS  [0.0310s]  games    test_nested_solved
+PASS  [0.0352s]  games    test_enum_move_and_solve
+PASS  [0.0004s]  games    test_trait_move_field_invalid_index
+PASS  [0.0004s]  games    test_trait_solved
+PASS  [0.0006s]  games    test_trait_move_without_lock
+PASS  [0.0331s]  games    test_nested_move_and_solve
+PASS  [0.0350s]  games    test_game_move_field_invalid_index
+PASS  [0.0347s]  games    test_monadic_move_and_solve
+PASS  [0.0003s]  games    test_trait_unsolved
+PASS  [0.0317s]  games    test_trait_move_and_solve
+PASS  [0.0018s]  games    test_trait_multiple_moves
+
+test result: ok. 90 passed; 0 failed

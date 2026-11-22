@@ -1,0 +1,8 @@
+No files changed, compilation skipped
+
+Ran 2 tests for test/DifferentialFuzz.t.sol:DifferentialFuzzTest
+[PASS] testFuzz_differentialMoveSequence(uint256,bytes) (runs: 1024, μ: 22719393, ~: 22567078)
+[PASS] testFuzz_unsolvableBoardStaysUnsolved(bytes) (runs: 1024, μ: 11424978, ~: 11494399)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 32.68s (65.33s CPU time)
+
+Ran 1 test suite in 32.69s (32.68s CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)

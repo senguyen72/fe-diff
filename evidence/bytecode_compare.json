@@ -1,0 +1,42 @@
+{
+ "BountyRegistry": {
+  "match": true,
+  "local_bytes": 5909,
+  "deployed_bytes": 5909
+ },
+ "Game": {
+  "match": true,
+  "local_bytes": 2409,
+  "deployed_bytes": 2409
+ },
+ "Game2D": {
+  "match": true,
+  "local_bytes": 2234,
+  "deployed_bytes": 2234
+ },
+ "GameNested": {
+  "match": true,
+  "local_bytes": 3535,
+  "deployed_bytes": 3535
+ },
+ "GameEnum": {
+  "match": true,
+  "local_bytes": 2617,
+  "deployed_bytes": 2617
+ },
+ "GameBitboard": {
+  "match": true,
+  "local_bytes": 2145,
+  "deployed_bytes": 2145
+ },
+ "GameMonadic": {
+  "match": true,
+  "local_bytes": 4389,
+  "deployed_bytes": 4389
+ },
+ "GameTrait": {
+  "match": true,
+  "local_bytes": 3148,
+  "deployed_bytes": 3148
+ }
+}
